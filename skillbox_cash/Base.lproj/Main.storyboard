@@ -24,20 +24,20 @@
             </objects>
             <point key="canvasLocation" x="1077.5999999999999" y="88.605697151424295"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Graph-->
         <scene sceneID="zgY-s6-WnK">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Graph" id="ygQ-Gy-C9a" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="Graph" storyboardName="Graph" id="ygQ-Gy-C9a" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="VXv-jn-Xdi"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rms-L6-uaE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="231" y="643"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Income-->
         <scene sceneID="664-A9-OYh">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Income" id="JLH-E8-11a" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Income" id="JLH-E8-11a" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="bu2-hZ-rsH"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iJ8-7f-B2C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

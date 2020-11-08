@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		368FA8EF254EC07D0061F28F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FA8EE254EC07D0061F28F /* AppDelegate.swift */; };
 		368FA8F1254EC07D0061F28F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FA8F0254EC07D0061F28F /* SceneDelegate.swift */; };
-		368FA8F3254EC07D0061F28F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FA8F2254EC07D0061F28F /* MainViewController.swift */; };
 		368FA8F6254EC07D0061F28F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368FA8F4254EC07D0061F28F /* Main.storyboard */; };
 		368FA8F8254EC07F0061F28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368FA8F7254EC07F0061F28F /* Assets.xcassets */; };
 		368FA8FB254EC07F0061F28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368FA8F9254EC07F0061F28F /* LaunchScreen.storyboard */; };
 		36C1C10825585CF900F1D570 /* Income.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C1C10725585CF900F1D570 /* Income.storyboard */; };
 		36C1C10F25585D4C00F1D570 /* Graph.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C1C10E25585D4C00F1D570 /* Graph.storyboard */; };
+		36C1C1142558611E00F1D570 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FA8F2254EC07D0061F28F /* MainViewController.swift */; };
+		CA437147CDB9A4C6DADBEA2E /* Pods_skillbox_cash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609108508A881533912E8C1C /* Pods_skillbox_cash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,9 @@
 		368FA8FC254EC07F0061F28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36C1C10725585CF900F1D570 /* Income.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Income.storyboard; sourceTree = "<group>"; };
 		36C1C10E25585D4C00F1D570 /* Graph.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Graph.storyboard; sourceTree = "<group>"; };
+		45455D3CEE72BF224B5E2438 /* Pods-skillbox_cash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillbox_cash.debug.xcconfig"; path = "Target Support Files/Pods-skillbox_cash/Pods-skillbox_cash.debug.xcconfig"; sourceTree = "<group>"; };
+		609108508A881533912E8C1C /* Pods_skillbox_cash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillbox_cash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC362A3EA454E1FF0A03BE9 /* Pods-skillbox_cash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillbox_cash.release.xcconfig"; path = "Target Support Files/Pods-skillbox_cash/Pods-skillbox_cash.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA437147CDB9A4C6DADBEA2E /* Pods_skillbox_cash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CB322CCA0E0F5AAE4EAE6C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609108508A881533912E8C1C /* Pods_skillbox_cash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		368FA8E2254EC07D0061F28F = {
 			isa = PBXGroup;
 			children = (
 				368FA8ED254EC07D0061F28F /* skillbox_cash */,
 				368FA8EC254EC07D0061F28F /* Products */,
+				E2AC222FE80C4D2ABA6CB359 /* Pods */,
+				1CB322CCA0E0F5AAE4EAE6C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +88,16 @@
 			path = skillbox_cash;
 			sourceTree = "<group>";
 		};
+		E2AC222FE80C4D2ABA6CB359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45455D3CEE72BF224B5E2438 /* Pods-skillbox_cash.debug.xcconfig */,
+				6AC362A3EA454E1FF0A03BE9 /* Pods-skillbox_cash.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 368FA8FF254EC07F0061F28F /* Build configuration list for PBXNativeTarget "skillbox_cash" */;
 			buildPhases = (
+				2392CAD16FB99A5FAF5AF8DA /* [CP] Check Pods Manifest.lock */,
 				368FA8E7254EC07D0061F28F /* Sources */,
 				368FA8E8254EC07D0061F28F /* Frameworks */,
 				368FA8E9254EC07D0061F28F /* Resources */,
+				A50F8A660B73815D92AB516F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,12 +167,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2392CAD16FB99A5FAF5AF8DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-skillbox_cash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50F8A660B73815D92AB516F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skillbox_cash/Pods-skillbox_cash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-skillbox_cash/Pods-skillbox_cash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-skillbox_cash/Pods-skillbox_cash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		368FA8E7254EC07D0061F28F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368FA8F3254EC07D0061F28F /* MainViewController.swift in Sources */,
+				36C1C1142558611E00F1D570 /* MainViewController.swift in Sources */,
 				368FA8EF254EC07D0061F28F /* AppDelegate.swift in Sources */,
 				368FA8F1254EC07D0061F28F /* SceneDelegate.swift in Sources */,
 			);
@@ -291,6 +360,7 @@
 		};
 		368FA900254EC07F0061F28F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45455D3CEE72BF224B5E2438 /* Pods-skillbox_cash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +380,7 @@
 		};
 		368FA901254EC07F0061F28F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC362A3EA454E1FF0A03BE9 /* Pods-skillbox_cash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
