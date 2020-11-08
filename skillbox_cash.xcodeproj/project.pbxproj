@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,7 @@
 		368FA8FB254EC07F0061F28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368FA8F9254EC07F0061F28F /* LaunchScreen.storyboard */; };
 		36C1C10825585CF900F1D570 /* Income.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C1C10725585CF900F1D570 /* Income.storyboard */; };
 		36C1C10F25585D4C00F1D570 /* Graph.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C1C10E25585D4C00F1D570 /* Graph.storyboard */; };
-		36C1C1142558611E00F1D570 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FA8F2254EC07D0061F28F /* MainViewController.swift */; };
+		36C1C1252558739900F1D570 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1C1242558739900F1D570 /* MainViewController.swift */; };
 		CA437147CDB9A4C6DADBEA2E /* Pods_skillbox_cash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609108508A881533912E8C1C /* Pods_skillbox_cash.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +22,13 @@
 		368FA8EB254EC07D0061F28F /* skillbox_cash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skillbox_cash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		368FA8EE254EC07D0061F28F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		368FA8F0254EC07D0061F28F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		368FA8F2254EC07D0061F28F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		368FA8F5254EC07D0061F28F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		368FA8F7254EC07F0061F28F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		368FA8FA254EC07F0061F28F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		368FA8FC254EC07F0061F28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36C1C10725585CF900F1D570 /* Income.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Income.storyboard; sourceTree = "<group>"; };
 		36C1C10E25585D4C00F1D570 /* Graph.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Graph.storyboard; sourceTree = "<group>"; };
+		36C1C1242558739900F1D570 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		45455D3CEE72BF224B5E2438 /* Pods-skillbox_cash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillbox_cash.debug.xcconfig"; path = "Target Support Files/Pods-skillbox_cash/Pods-skillbox_cash.debug.xcconfig"; sourceTree = "<group>"; };
 		609108508A881533912E8C1C /* Pods_skillbox_cash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillbox_cash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC362A3EA454E1FF0A03BE9 /* Pods-skillbox_cash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillbox_cash.release.xcconfig"; path = "Target Support Files/Pods-skillbox_cash/Pods-skillbox_cash.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 			children = (
 				368FA8EE254EC07D0061F28F /* AppDelegate.swift */,
 				368FA8F0254EC07D0061F28F /* SceneDelegate.swift */,
-				368FA8F2254EC07D0061F28F /* MainViewController.swift */,
+				36C1C1242558739900F1D570 /* MainViewController.swift */,
 				368FA8F4254EC07D0061F28F /* Main.storyboard */,
 				36C1C10E25585D4C00F1D570 /* Graph.storyboard */,
 				36C1C10725585CF900F1D570 /* Income.storyboard */,
@@ -94,7 +94,6 @@
 				45455D3CEE72BF224B5E2438 /* Pods-skillbox_cash.debug.xcconfig */,
 				6AC362A3EA454E1FF0A03BE9 /* Pods-skillbox_cash.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C1C1142558611E00F1D570 /* MainViewController.swift in Sources */,
+				36C1C1252558739900F1D570 /* MainViewController.swift in Sources */,
 				368FA8EF254EC07D0061F28F /* AppDelegate.swift in Sources */,
 				368FA8F1254EC07D0061F28F /* SceneDelegate.swift in Sources */,
 			);
